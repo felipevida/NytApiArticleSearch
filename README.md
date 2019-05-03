@@ -1,5 +1,5 @@
+# New York Times :: API :: Search Articles User Interface
 # CST2335-FINAL-PROJECT
-# Overview
 
 This program is part of the Final Project developed for Mobile Graphical Development course.
 I am enterily responsible for the following code. However, there was another three programs in this Project.
