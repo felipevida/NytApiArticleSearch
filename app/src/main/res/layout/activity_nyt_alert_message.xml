@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <!-- AUTHOR -->
+    <TextView
+        android:id="@+id/nytAlertAuthorTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytAlertAuthorTitle"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nytAlertAuthorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytAlertAuthorName" />
+
+    <!-- VERSION -->
+    <TextView
+        android:id="@+id/nytAlertVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytAlertVersion"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nytAlertVersionNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytAlertVersionNumber" />
+
+    <!-- HOW TO USE -->
+    <TextView
+        android:id="@+id/nytalertInstructionsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytalertInstructionsTitle"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nytalertInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytalertInstructions" />
+
+    <TextView
+        android:id="@+id/nytalertInstructions2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytalertInstructions2" />
+
+    <TextView
+        android:id="@+id/nytalertInstructions3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytalertInstructions3" />
+
+    <TextView
+        android:id="@+id/nytalertInstructions4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="@string/nytalertInstructions4" />
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NYT Articles Search</string>
+    <!-- NEW YORK TIMES -->
+    <string name="nytPageTitle">Navigation Menu</string>
+    <string name="nytSearchTitle">Search for articles:</string>
+    <string name="nytSearchButton">Search</string>
+    <string name="nytGoToFlight">Flight Status Tracker</string>
+    <string name="nytGoToNewsFeed">News Feed</string>
+    <string name="nytGoToMerriamW">Merriam Webster</string>
+    <string name="nytBookmark">Bookmarks</string>
+    <!-- NYT About -->
+    <string name="nytAbout">About</string>
+    <string name="nytAlertAuthorTitle">Author:</string>
+    <string name="nytAlertAuthorName">Felipe Marinho Soares da Silva</string>
+    <string name="nytAlertVersion">Version:</string>
+    <string name="nytAlertVersionNumber">1.6</string>
+    <string name="nytalertInstructionsTitle">How to use:</string>
+    <string name="nytalertInstructions">Click on a search results to visit the full article URL.</string>
+    <string name="nytalertInstructions2">Click and hold to bookmark.</string>
+    <string name="nytalertInstructions3">Inside Bookmark page, click in a previous search input to delete it.</string>
+    <string name="nytalertInstructions4">Long click to delete a saved article.</string>
+    <!-- NYT Temp -->
+    <string name="nytBookmarkYes">Bookmark this.</string>
+    <string name="nytCancel">Cancel.</string>
+    <string name="nytWebUrlTextView">Loading Web Url</string>
+    <!-- NYT Bookmarks -->
+    <string name="nytBookmakPreviousSearch">Previous search tags:</string>
+    <string name="nytBookmakSavedArticles">Saved Articles:</string>
+    <string name="nytHistAndBookmarks">History and Bookmarks</string>
+</resources>

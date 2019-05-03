@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:id="@+id/nytLinearLayout"
+            android:orientation="vertical">
+
+            <Toolbar
+                android:id="@+id/nytToolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:id="@+id/nytProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+
+
+            <!-- EDIT TEXT AND PROGRESS BAR -->
+            <ImageView
+                android:id="@+id/nytImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:clickable="false"
+                android:src="@drawable/nytimeslogo" />
+
+            <TextView
+                android:id="@+id/nytTextViewSearchTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/nytSearchTitle" />
+
+            <EditText
+                android:id="@+id/nytEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/nytSearchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/nytSearchButton" />
+
+            <!-- LIST VIEW -->
+            <ListView
+                android:id="@+id/nytListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/nytFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/nytLinearLayout" />
+
+    </RelativeLayout>
+
+</LinearLayout>
