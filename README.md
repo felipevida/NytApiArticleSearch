@@ -7,7 +7,7 @@ Features that might allow users to navigate between the other programs in this P
 
 # Purpose
 
-The Project is assigned to give you experience in: 
+The Project is assigned to give experience in: 
 - Developing software in a group environment.
 - Dividing workload to meet deadlines.
 - Designing modular software that allows that division.
